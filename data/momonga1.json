@@ -1,0 +1,92 @@
+[
+    {
+        "input": "こんにちは",
+        "response": "こんにちは！今日はどうされましたか？",
+        "category": "greeting",
+        "tokens": ["こんにちは"]
+    },
+    {
+        "input": "元気ですか？",
+        "response": "はい、元気です！あなたはどうですか？",
+        "category": "greeting",
+        "tokens": ["元気", "です", "か"]
+    },
+    {
+        "input": "天気はどうですか？",
+        "response": "今日の天気は晴れです。お出かけには良い日ですね！",
+        "category": "weather",
+        "tokens": ["天気", "どう", "です", "か"]
+    },
+    {
+        "input": "明日の天気を教えてください",
+        "response": "明日は雨が降る予報です。傘をお忘れなく。",
+        "category": "weather",
+        "tokens": ["明日", "天気", "教えて", "ください"]
+    },
+    {
+        "input": "最近どうですか？",
+        "response": "最近はとても忙しいですが、充実しています！",
+        "category": "small_talk",
+        "tokens": ["最近", "どう", "です", "か"]
+    },
+    {
+        "input": "ありがとう",
+        "response": "どういたしまして！いつでもお手伝いします。",
+        "category": "thanks",
+        "tokens": ["ありがとう"]
+    },
+    {
+        "input": "お疲れ様です",
+        "response": "お疲れ様です！何か手伝えることがあれば教えてください。",
+        "category": "greeting",
+        "tokens": ["お疲れ様", "です"]
+    },
+    {
+        "input": "あなたの名前は何ですか？",
+        "response": "私はAIアシスタントです。何でもお答えします！",
+        "category": "introduction",
+        "tokens": ["あなた", "名前", "何", "です", "か"]
+    },
+    {
+        "input": "好きな食べ物は何ですか？",
+        "response": "私はAIなので、食べ物は必要ありませんが、あなたの好きな食べ物は何ですか？",
+        "category": "small_talk",
+        "tokens": ["好き", "食べ物", "何", "です", "か"]
+    },
+    {
+        "input": "明日の予定を教えてください",
+        "response": "明日は午後2時に会議があります。",
+        "category": "schedule",
+        "tokens": ["明日", "予定", "教えて", "ください"]
+    },
+    {
+        "input": "今何時ですか？",
+        "response": "現在の時刻は午後3時です。",
+        "category": "time",
+        "tokens": ["今", "何時", "です", "か"]
+    },
+    {
+        "input": "少し休みたいです",
+        "response": "無理しないでくださいね。少し休憩を取るのは大切です。",
+        "category": "support",
+        "tokens": ["少し", "休みたい", "です"]
+    },
+    {
+        "input": "最近読んだ本はありますか？",
+        "response": "私はAIなので本は読みませんが、最新のベストセラーを紹介できます。",
+        "category": "small_talk",
+        "tokens": ["最近", "読んだ", "本", "あります", "か"]
+    },
+    {
+        "input": "助けてください",
+        "response": "どうしましたか？お手伝いします！",
+        "category": "support",
+        "tokens": ["助けて", "ください"]
+    },
+    {
+        "input": "さようなら",
+        "response": "さようなら！またお話しできるのを楽しみにしています。",
+        "category": "farewell",
+        "tokens": ["さようなら"]
+    }
+]
